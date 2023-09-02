@@ -4,7 +4,7 @@ import searchlogo from "../../../assets/search.svg";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around bg-[#007dbc] pt-2 pb-2">
+    <nav className="flex items-center justify-around flex-col lg:flex-row bg-[#007dbc] pt-2 pb-2">
       <NavLink to="/">
         <img
           src={logo}
@@ -21,11 +21,11 @@ const Navbar = () => {
       <div className="flex bg-white pr-3 rounded-md">
         <input
           type="text"
-          style={{ height: "30px", width: "400px", borderRadius: "10px" }}
+          style={{ height: "30px", width: "300px", borderRadius: "10px" }}
         />
-        <img src={searchlogo } style={{width:"15px"}} alt="" />
+        <img src={searchlogo} style={{ width: "15px" }} alt="" />
       </div>
-      <div className="flex items-center gap-16  text-white">
+      <div className="flex flex-col sm:flex-row  items-center sm:gap-16  text-white">
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/about">ABOUT</NavLink>
         <NavLink to="/contact">CONTACT</NavLink>
