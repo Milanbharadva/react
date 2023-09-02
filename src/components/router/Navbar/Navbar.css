@@ -1,0 +1,9 @@
+.active{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+input:focus{
+    outline: none;
+    padding-left: 10px;
+}

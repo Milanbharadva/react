@@ -1,10 +1,11 @@
-import React from "react";
-function App() {
+import Navbar from "./components/router/Navbar/Navbar";
+import Router from "./components/router/Router";
+
+export default function App() {
   return (
-    <div className="App">
-    
+    <div>
+      <Navbar />
+      <Router />
     </div>
   );
 }
-
-export default App;
