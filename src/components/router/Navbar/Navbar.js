@@ -14,11 +14,12 @@ const Navbar = () => {
             borderWidth: "1px",
             outline: "none ",
           }}
-          alt=""
+          alt="company logo"
+          className="mb-2 sm:mb-0"
         />
       </NavLink>
 
-      <div className="flex bg-white pr-3 rounded-md">
+      <div className="flex bg-white pr-3 rounded-md mb-2 sm:mb-0">
         <input
           type="text"
           style={{ height: "30px", width: "300px", borderRadius: "10px" }}
