@@ -10,7 +10,7 @@ const ProductList = (props) => {
           {props.data.map((val) => {
             return (
               <div
-                className="flex border-[1px] border-black  items-center flex-col"
+                className="flex border-[1px] border-black  items-center flex-col cursor-pointer"
                 key={val.id}
                 onClick={() => {
                   nav(`singleproduct/${val.id}`);
